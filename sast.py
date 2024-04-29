@@ -3,7 +3,7 @@ import subprocess
 from docx import Document
 
 # Клонируем репозиторий
-repository_url = 'https://github.com/rusakova92.it'
+repository_url = 'https://github.com/rusakova92/SAST.git'
 repository_dir = 'repository_folder'
 repo = git.Repo.clone_from(repository_url, repository_dir)
 
